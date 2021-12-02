@@ -1,7 +1,7 @@
 body{
-    background-color: gray;
+    background-color: white;
     margin: 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 header{
@@ -15,9 +15,9 @@ header{
 }
 
 h1{
-    color: white;
+    color: black;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     margin: auto;
 }
 
@@ -26,6 +26,8 @@ h1{
     float: left;
     width: 50%;
     height: 500px;
+    text-align: center;
+
 }
     
 .jaune{
@@ -33,12 +35,37 @@ h1{
     float: right;
     width: 50%;
     height: 500px;
+    text-align: center;
 }
 
 .boite_blanche{
+    color: black;
     background-color: white;
-    border-radius: 10px;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 5px;    
+    width: 50%;
+    padding: 10px;
+    margin-top: 180px;
+    display: inline-block;
+
+}
+
+.boite_blanche:hover{
+    background-color: rgb(226, 226, 226);
+    border: solid;
+    border-width: 2px;
+}
+
+.boite_bas{
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 5px;   
+    width: 30%;
+    text-align: center;
+
+}
+
+.boite_bas:hover{
+    background-color: rgb(226, 226, 226);
+    border: solid;
+    border-width: 2px;
 }
