@@ -21,18 +21,20 @@ h1{
     margin: auto;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
 .rouge{
     background-color: rgb(173, 1, 0);
-    float: left;
     width: 50%;
     height: 500px;
     text-align: center;
-
 }
     
 .jaune{
     background-color: rgb(245, 228, 0);
-    float: right;
     width: 50%;
     height: 500px;
     text-align: center;
@@ -43,10 +45,11 @@ h1{
     background-color: white;
     border-radius: 5px;    
     width: 50%;
-    padding: 10px;
-    margin-top: 180px;
-    display: inline-block;
-
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 25%;
+    margin-top: 230px;
 }
 
 .boite_blanche:hover{
@@ -70,13 +73,36 @@ h1{
     border-width: 2px;
 }
 
+/*footer*/
 
+footer{
+    background-color: #262626;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px 10px 50px;
+}
 
 .bas1{
     color: rgb(245, 228, 0);
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    text-align: left; 
+}
+
+.images_bas{
+    width: 100%;
+    text-align: center;
+}
+
+.bas2{
+    color: rgb(245, 228, 0);
+    width: 100%;
+    text-align: right;
 }
 
 .link{
@@ -87,10 +113,4 @@ h1{
 .link:hover{
     color: #ffffff;
     text-decoration: none;
-}
-
-.image_bas{
-    float: right;
-    margin-left: auto;
-    margin-right: auto;
 }
