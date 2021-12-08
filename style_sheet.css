@@ -74,12 +74,52 @@ h1{
     border: solid;
     border-width: 2px;
 }
+/*Nav*/
 
+nav{
+    background-color: rgb(173, 1, 0);
+    height: 100px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 50px;
+
+}
+
+nav a
+{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+nav a:hover
+{
+    color: rgb(161, 31, 47);
+    border-bottom: 2px solid rgb(161, 31, 47);
+}
 
 /*Contenu*/
 
 .content{
-    margin-left: 10px;
+    margin-left: 30px;
+    width: 60%;
+    text-align: justify;
+}
+.image_droite{
+    float:right;
+    width: 30%;
+    padding: 30px 30px 30px 30px;
 }
 
 .content h2{
