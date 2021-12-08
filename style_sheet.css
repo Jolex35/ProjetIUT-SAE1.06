@@ -5,10 +5,12 @@ body{
 }
 
 header{
+    background-color:#ffffff;
     display: flex;
     justify-content: space-between;
     height: 150px;
 }
+
 
 .logo_occitanie:hover{
     opacity: 0.7;
@@ -73,6 +75,18 @@ h1{
     border-width: 2px;
 }
 
+
+/*Contenu*/
+
+.content{
+    margin-left: 10px;
+}
+
+.content h2{
+    text-decoration: underline;
+}
+
+
 /*footer*/
 
 footer{
@@ -85,7 +99,7 @@ footer{
 .footercontainer{
     display: flex;
     flex-direction: row;
-    margin: 10px 50px 10px 50px;
+    margin: 10px 50px 0px 50px;
 }
 
 .bas1{
