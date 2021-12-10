@@ -53,7 +53,30 @@ h1{
     padding: 10px 0px 10px 0px;
     margin-left: 25%;
     margin-top: 180px;
+    text-align: center;
 
+}
+
+#comparatif{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;    
+    width: 50%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+#comparatif:hover{
+    background-color: rgb(226, 226, 226);
+    border: solid;
+    border-width: 2px;
 }
 
 .boite_blanche:hover{
@@ -75,6 +98,11 @@ h1{
     background-color: rgb(226, 226, 226);
     border: solid;
     border-width: 2px;
+}
+
+.vide{
+    height:400px;
+    background-color: white;
 }
 /*Nav*/
 
@@ -127,10 +155,14 @@ nav a:hover
     width: 70%;
     text-align: justify;
 }
+.content li{
+    margin: 20px 0px 0px 0px;
+
+}
 .image_droite{
     float:right;
-    width: 30%;
-    padding: 30px 30px 30px 30px;
+    width: 25%;
+    padding: 30px 4% 0px 0px;
 }
 
 .content h2{
