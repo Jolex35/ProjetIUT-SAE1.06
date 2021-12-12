@@ -57,11 +57,16 @@ h1{
 
 }
 
+#zone_blanche{
+    height:200px;
+    background-color: white;
+}
+
 #comparatif{
     color: black;
     font-size: 50px;
     text-decoration: none;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     border-radius: 20px;    
     width: 50%;
     height: auto;
@@ -74,13 +79,13 @@ h1{
 }
 
 #comparatif:hover{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(210, 210, 210);
     border: solid;
     border-width: 2px;
 }
 
 .boite_blanche:hover{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(185, 185, 185);
     border: solid;
     border-width: 2px;
 }
@@ -101,7 +106,7 @@ h1{
 }
 
 .vide{
-    height:400px;
+    height:200px;
     background-color: white;
 }
 /*Nav*/
@@ -167,6 +172,7 @@ nav a:hover
 
 .content h2{
     text-decoration: underline;
+    color: rgb(190, 0, 0)
 }
 
 .main_content{
@@ -204,7 +210,8 @@ footer{
     
 }
 .images_bas img{
-    margin: 0px 20px 0px 20px;
+    width: 30%;
+    margin: 0px 0px 0px 5%;
 }
 .bas2{
     font-size: 20px;
