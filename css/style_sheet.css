@@ -196,6 +196,7 @@ nav a:hover
     float:right;
     width: 25%;
     padding: 30px 4% 0px 0px;
+    margin-left: 1em;
 }
 
 .content h2{
@@ -260,13 +261,13 @@ footer{
 }
 
 input {
-    height: 1.7em;
+    height: 1.4em;
     font-size: 1.5em;
     border-width: 3px;
     border-radius: 5px;
     background-color: #e7e7e7;
     transition: ease-in-out;
-    transition-duration: 200ms;
+    transition-duration: 100ms;
 }
 
 input:focus {
@@ -279,5 +280,27 @@ textarea {
     background-color: #e7e7e7;
     height: 4em;
     width: 15em;
+    font-size: 1.5em;
+    transition: ease-in-out;
+    transition-duration: 100ms;
+}
+
+textarea:focus {
+    background-color: #ffffff;
+}
+
+.soumettre {
+    
+    box-shadow: 10px 10px 10px black;
+    transition: ease-in-out;
+    transition-duration: 100ms;
+}
+
+.soumettre:hover {
+    box-shadow: 5px 5px 5px black;
+    transform: translateY(5);
+}
+
+.content p {
     font-size: 1.5em;
 }
