@@ -19,6 +19,7 @@ header{
 
 a {
     text-decoration: none;
+    color:black;
 }
 
 h1{
@@ -30,6 +31,10 @@ h1{
 
 .logo_occitanie:hover{
     opacity: 0.7;
+}
+
+.logo_occitanie:active{
+    opacity: 0.5;
 }
 
 .container{
@@ -51,7 +56,7 @@ h1{
     text-align: center;
 }
 
-.boite_blanche{
+.boite_blanche,#comparatif{
     color: black;
     font-size: 50px;
     text-decoration: none;
@@ -66,9 +71,6 @@ h1{
     box-shadow: 10px 10px 10px black;
     transition: ease-in-out;
     transition-duration: 100ms;
-    
-    
-
 }
 
 .boite_blanche:hover{
@@ -81,25 +83,12 @@ h1{
     background-color: #AAAAAA;
 }
 
-#comparatif{
-    color: black;
-    font-size: 50px;
-    text-decoration: none;
-    background-color: rgb(245, 245, 245);
-    border-radius: 20px;    
-    width: 50%;
-    height: auto;
-    padding: 10px 0px 10px 0px;
-    margin-left: 25%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    box-shadow: 10px 10px 10px black;
-    transition: ease-in-out;
-    transition-duration: 100ms;
-
+#comparatif
+{
+    margin-top: 1.5em;
+    background-color: #89e24d;
+    color: #ffffff;
 }
-
 #comparatif:hover{
     box-shadow: 5px 5px 8px black;
     transform: translateY(5px);
@@ -112,7 +101,7 @@ h1{
 }
 
 #zone_blanche{
-    height:200px;
+    min-height:20em;
     background-color: white;
     
 }
@@ -141,44 +130,47 @@ h1{
 
 nav{
     background-color: rgb(173, 1, 0);
-    height: 120px;
+    min-height: 7em;
 }
 
 nav ul
 {
     list-style-type: none;
     display: flex;
-    padding: 10px 0px 0px 5%;
 }
 
 nav li
 {
-    margin-right: 5%;
+    margin-right: 6em;
 }
 
-nav a
+nav a, #page_select
 {
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
+    font-size: 2rem;
+    color: #000;
     background-color: white;
     border-radius: 15px;
-    padding: 5px 20px 5px 20px;
+    padding: 0.5em 1em;
+    transition: ease-in-out;
+    transition-duration: 100ms;
+}
+
+#page_select
+{
+    background-color: rgb(245, 228, 0);
 }
 
 nav a:hover
 {
     color: rgb(173, 1, 0);
-    text-decoration: underline;
+    background-color: #CCCCCC;
 }
 
-#page_select{
-    font-size: 25px;
-    color: black;
-    text-decoration: underline;
+nav a:active
+{
+    color:  #000;
     background-color: rgb(245, 228, 0);
-    border-radius: 15px;
-    padding: 5px 20px 5px 20px;
+    
 }
 
 /*Contenu*/
@@ -290,17 +282,23 @@ textarea:focus {
 }
 
 .soumettre {
-    
+    background-color: #ffffff;
     box-shadow: 10px 10px 10px black;
     transition: ease-in-out;
     transition-duration: 100ms;
 }
 
 .soumettre:hover {
+    background-color: #CCCCCC;
     box-shadow: 5px 5px 5px black;
     transform: translateY(5);
 }
 
-.content p {
+.soumettre:active {
+    background-color: #AAAAAA;
+    box-shadow: 2px 2px 2px black;
+}
+
+.content{
     font-size: 1.5em;
 }
